@@ -386,7 +386,7 @@ class DemoHandler(BaseHTTPRequestHandler):
         </div>
         <div class='badge'>Demo Mode</div>
         <h1>Social Arena — Streak Shield Leaderboard</h1>
-        <p class='sub'>這個版本不是單純展示排行榜，而是展示：如何用 streak、shield 與 relative leaderboard，讓業務員更願意每天回來學習。</p>
+        <p class='sub'>用 streak、shield 與 relative leaderboard，促使大家每天回來學習。</p>
         <p class='sub'>目前週期：{h(current_epoch_week())}</p>
     </div>
 
