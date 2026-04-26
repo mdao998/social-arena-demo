@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 """
-商業邏輯層（Business Logic Layer）
+邏輯層（Logic Layer）
 ---------------------------------
 這裡負責遊戲規則：
 - 完成模組怎麼加分
