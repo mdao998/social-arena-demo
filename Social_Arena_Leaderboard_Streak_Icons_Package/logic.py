@@ -379,7 +379,7 @@ def get_global_top_n(n: int = 10) -> List[Dict]:
             GROUP BY agent_id
         ) lp ON ls.agent_id = lp.agent_id
         WHERE ls.epoch_week_number = ?
-        ORDER BY ls.weekly_points_total DESC, a.agent_name ASC
+        ORDER BY lifetime_points DESC, a.agent_name ASC
         LIMIT ?
         """,
         (epoch, n),
