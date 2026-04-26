@@ -132,7 +132,7 @@ def create_study_session(
         _record_ledger_event(cur, agent_id, "quiz_perfect", PERFECT_QUIZ_BONUS, studied_at, session_id)
         total_points += PERFECT_QUIZ_BONUS
 
-    # 3) 題目原文寫 +2 bonus multiplier；為了帳務清楚，這裡實作成可稽核的 +2 bonus event
+    # 3) 題目原文 +2 bonus multiplier；為表清楚，這裡寫為可稽核的 +2 bonus event
     if bio_rhythm_respected:
         _record_ledger_event(cur, agent_id, "bio_rhythm_bonus", BIO_RHYTHM_BONUS, studied_at, session_id)
         total_points += BIO_RHYTHM_BONUS
