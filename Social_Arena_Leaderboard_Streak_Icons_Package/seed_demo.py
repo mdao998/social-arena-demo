@@ -25,12 +25,16 @@ BRANCHES = [
 AGENTS = [
     ("Alicia", "Nangang District Branch"),
     ("Ben", "Nangang District Branch"),
+    ("Kerry", "Nangang District Branch"),
     ("Cindy", "Xinyi District Branch"),
     ("David", "Xinyi District Branch"),
     ("Ethan", "Banqiao Branch"),
     ("Fiona", "Banqiao Branch"),
     ("Grace", "Taoyuan Branch"),
     ("Henry", "Taoyuan Branch"),
+    ("Sunny", "Taoyuan Branch"),
+    ("Oxford", "Taoyuan Branch"),
+    ("Terry", "Taoyuan Branch"),
 ]
 
 # agent_name, days_ago, quiz_score, bio_rhythm, module_name
@@ -43,6 +47,9 @@ SESSIONS = [
     ("Ben", 2, 80, False, "Term Life Policy Refresher"),
     ("Ben", 1, 100, False, "FSC Compliance Sprint"),
     ("Ben", 0, 100, True, "Cross-Selling Framework Sprint"),
+
+    ("Kerry", 4, 100, True, "FSC Compliance Sprint"),
+    ("Kerry", 3, 100, True, "FSC Compliance Sprint"),
 
     ("Cindy", 4, 100, True, "FSC Compliance Sprint"),
     ("Cindy", 3, 100, True, "FSC Compliance Sprint"),
@@ -67,6 +74,18 @@ SESSIONS = [
     ("Grace", 0, 100, True, "Cross-Selling Framework Sprint"),
 
     ("Henry", 1, 70, False, "Objection Handling"),
+
+    ("Sunny", 6, 100, True, "Investment-Linked Product Basics"),
+    ("Sunny", 5, 100, True, "Investment-Linked Product Basics"),
+    ("Sunny", 4, 100, True, "Investment-Linked Product Basics"),
+
+     ("Oxford", 6, 100, True, "Investment-Linked Product Basics"),
+    ("Oxford", 5, 100, True, "Investment-Linked Product Basics"),
+    ("Oxford", 4, 100, True, "Investment-Linked Product Basics"),
+
+     ("Grace", 6, 100, True, "Investment-Linked Product Basics"),
+    ("Grace", 5, 100, True, "Investment-Linked Product Basics"),
+    ("Terry", 4, 100, True, "Investment-Linked Product Basics"),
 ]
 
 
