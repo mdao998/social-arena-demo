@@ -3,10 +3,8 @@ from __future__ import annotations
 """
 資料庫層（Database Layer）
 -------------------------
-這個檔案只做一件事：
 把專案需要的資料表準備好，並提供一個穩定的 SQLite 連線。
 
-你可以把它想成：
 - get_connection() = 打開保險箱
 - initialize_database() = 先把所有帳本和名冊建好
 """
