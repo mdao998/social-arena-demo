@@ -338,7 +338,7 @@ def get_relative_leaderboard(agent_id: int, window: int = 2) -> List[Dict]:
             GROUP BY agent_id
         ) lp ON ls.agent_id = lp.agent_id
         WHERE ls.epoch_week_number = ?
-        ORDER BY ls.weekly_points_total DESC, a.agent_name ASC
+        ORDER BY lifetime_points DESC, a.agent_name ASC
         """,
         (epoch,),
     )
