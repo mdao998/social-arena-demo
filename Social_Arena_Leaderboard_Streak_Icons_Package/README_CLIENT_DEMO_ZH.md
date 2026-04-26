@@ -1,4 +1,4 @@
-# Social Arena｜客戶展示版說明
+# Social Arena｜展示版說明
 
 ## 最短執行方式
 
@@ -21,9 +21,8 @@ http://127.0.0.1:8000
 4. 再看 Streak + Shield Visualizer，解釋它如何降低挫折感。
 5. 最後看 Immutable Point Ledger，強調這不是只會覆蓋總分的簡易做法，而是能 audit 的設計。
 
-## 你可以對客戶講的關鍵句
 
-- 我們不是只做一個排行榜，而是做一個可持續的學習行為系統。
+可持續的學習行為系統。
 - Relative leaderboard 讓中段使用者也有持續追趕的動機。
 - Shield 設計讓使用者偶爾中斷也不會立刻放棄。
 - Point ledger 讓每一筆點數都有來源，後續可以重算、追蹤與稽核。
