@@ -3,7 +3,7 @@ from __future__ import annotations
 """
 商業邏輯層（Business Logic Layer）
 ---------------------------------
-這裡負責真正的遊戲規則：
+這裡負責遊戲規則：
 - 完成模組怎麼加分
 - 100 分小考怎麼加 bonus
 - Bio-Rhythm 怎麼加 bonus
@@ -11,7 +11,7 @@ from __future__ import annotations
 - shield 怎麼發、怎麼消耗
 - 每週排行榜怎麼刷新
 
-你可以把這個檔案想成：系統的「裁判 + 記分員」。
+系統裁判 + 記分員
 """
 
 from dataclasses import dataclass
@@ -39,7 +39,7 @@ def today_local() -> date:
 
 
 def current_epoch_week(target_date: Optional[date] = None) -> str:
-    """把今天轉成像 2026-W15 這種週期字串。"""
+    """把今天轉成 2026-W15 這種週期字串。"""
     target_date = target_date or today_local()
     iso_year, iso_week, _ = target_date.isocalendar()
     return f"{iso_year}-W{iso_week:02d}"
