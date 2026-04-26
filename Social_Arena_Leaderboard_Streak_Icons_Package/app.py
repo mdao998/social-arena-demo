@@ -364,7 +364,7 @@ class DemoHandler(BaseHTTPRequestHandler):
         if leader_view == "global":
             leaderboard_title = "Global Top 10"
             leaderboard_note = "這個榜單適合給管理層看整體衝刺表現；現在也能同步看到每位使用者的 streak 火花，讓大家同時看到分數與學習動能。"
-            leaderboard_body = render_table(global_rows, [('rank', 'Rank'), ('agent_name', 'Agent'), ('branch_name', 'Branch'), ('weekly_points_total', 'Weekly Points'), ('streak_visual', 'Streak')])
+            leaderboard_body = render_table(global_rows, [('rank', 'Rank'), ('agent_name', 'Agent'), ('branch_name', 'Branch'), ('lifetime_points', 'lifetime_points'), ('streak_visual', 'Streak')])
         else:
             leaderboard_title = "Relative Leaderboard"
             leaderboard_note = "這裡以目前展示中的 Agent 為中心，呈現前後各 2 名；不顯示全域名次，只聚焦在你前後的人。同時補上 Lifetime Points 與 streak 火花，讓你更容易看出自己和前後使用者的差距。"
