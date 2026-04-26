@@ -495,7 +495,7 @@ class DemoHandler(BaseHTTPRequestHandler):
 
     <div class='card'>
         <h2>Immutable Point Ledger（查核完整紀錄）</h2>
-        <p class='note'>每次 module 完成、100 分 quiz bonus、bio-rhythm bonus，系統都新增一筆 ledger event，而不是直接覆寫總分。這讓系統能 audit、能重算，也比較符合金融級資料治理思維。</p>
+        <p class='note'>每次 module 完成、100 分 quiz bonus、bio-rhythm bonus，系統都新增一筆 ledger event，而不是直接覆寫總分。這讓系統能 audit、能重算。</p>
         {render_table(ledger_rows, [('event_type', 'Event Type'), ('points_awarded', 'Points'), ('timestamp', 'Timestamp')])}
     </div>
 
